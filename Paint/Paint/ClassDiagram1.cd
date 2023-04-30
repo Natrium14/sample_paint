@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Paint.PaintBase">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIACAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>PaintBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.PaintText">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PaintText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.PaintBalon">
+    <Position X="13.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABACAAAAAAAAAEAAAA=</HashCode>
+      <FileName>PaintBalon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.PaintBrushXOR">
+    <Position X="16" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PaintBrushXOR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.PaintCircle">
+    <Position X="25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>PaintCircle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.PaintFill">
+    <Position X="1.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAACAAAAAAAAAAAgAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PaintFill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.PaintFillSmooth">
+    <Position X="1.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>PaintFillSmooth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.PaintFilter">
+    <Position X="8.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAgEAAAAAAACAEEAAAAAAAAAAA=</HashCode>
+      <FileName>PaintFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.PaintFilterColor">
+    <Position X="11.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAIAAgAAQgAAAAAgAAAAAAAAAQAAAAEAAAIA=</HashCode>
+      <FileName>PaintFilterColor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.PaintFilterNoise">
+    <Position X="6.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PaintFilterNoise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.PaintFilterSmooth">
+    <Position X="8.5" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAwAA=</HashCode>
+      <FileName>PaintFilterSmooth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.PaintGradient">
+    <Position X="22.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PaintGradient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.PaintLine">
+    <Position X="26.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAASAAAAAAAAAAAAEQAAAAAAAAAAAAAAAEAAAEAAAA=</HashCode>
+      <FileName>PaintLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.PaintRandomPolygon">
+    <Position X="20.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PaintRandomPolygon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.PaintSquare">
+    <Position X="27.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PaintSquare.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.PaintWave">
+    <Position X="29.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>PaintWave.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.PaintSelection">
+    <Position X="31.75" Y="7" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Paint.PaintSelection.SelectionBoundPoint">
+        <TypeIdentifier>
+          <NewMemberFileName>PaintSelection.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAEAAAAAAACAAAAAAA=</HashCode>
+      <FileName>PaintSelection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.PaintBalonFilter">
+    <Position X="13.75" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAEAAAAAAABABBAAAAIAAQAAAEAAAA=</HashCode>
+      <FileName>PaintBalonFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.PaintPero">
+    <Position X="18" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAAABACABAAAIAABAAAAAAAAAAIAAAgAAAAgAAAAAAg=</HashCode>
+      <FileName>PaintPath.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.Test3D.MyFigure">
+    <Position X="3" Y="9.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QCAAAAAAAACQAAAAAAAAAACAAAQQIAAAAAEAAABCAAA=</HashCode>
+      <FileName>Test3D\MyFigure.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Paint.Test3D.MyFigureCube">
+    <Position X="2.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Test3D\MyFigureCube.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.Test3D.MyFigureFiveRomb">
+    <Position X="7.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Test3D\MyFigureFiveRomb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.Test3D.MyFigurePrizm">
+    <Position X="0.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Test3D\MyFigurePrizm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.Test3D.MyFigureRomb">
+    <Position X="5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Test3D\MyFigureRomb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.Test3D.MyLink">
+    <Position X="9.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Test3D\MyLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint.Test3D.MyPoint">
+    <Position X="11.5" Y="13" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAGBAAAA=</HashCode>
+      <FileName>Test3D\MyPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Paint.Test3D.IMyFigure">
+    <Position X="5.75" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAACQAAAAAAAAAACAAAAQAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Test3D\IMyFigure.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
